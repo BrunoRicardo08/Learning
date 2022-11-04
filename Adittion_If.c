@@ -3,19 +3,19 @@
 
 int main(void)
 {
-            // Explain the rule and get numbers from the user.
+            // Explain the rules and get numbers from the user.
            printf("If the result of the addition of your two next numbers is equal a secret number, you will get a positive message. Find the result =]. \nTip: Its a binary one, 0-1.\n");
 
             int x =0;
             int y =0;
             int result =0;
 
-            printf("\nWhat is the first value you want to use?\n");
+            printf("\nWhat is the first number you want to use?\n");
             scanf("%i", &x);
 
             printf("\n");
 
-             printf("\nWhat is the second value you want to use?\n");
+             printf("\nWhat is the second number you want to use?\n");
              scanf("%i", &y);
 
             printf("\n");

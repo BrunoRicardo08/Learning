@@ -1,0 +1,47 @@
+DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontre seu produto. 1</title>
+    <style>
+        /* Aplicar estilos gerais */
+        body {
+            background-color: black; /* Cor de fundo preta */
+            color: white; /* Cor da fonte branca */
+            font-family: 'Times New Roman', Times, serif; /* Fonte Times New Roman */
+            font-size: 20px; /* Tamanho 14 */
+        }
+    </style>
+</head>
+<body>
+    <h1>Seja bem vindo(a)!</h1>
+    <p></p>
+    <p>Apesar de parecer simples, esta página irá te ajudar bastante.</p>
+    <p>Aqui você poderá digitar o nome de um produto e em seguida lhe informaremos as opções para compra no site da Amazon Brasil.</p>
+    <p>Por favor, digite o produto que você gostaria de encontrar para a sua compra </p>
+    <img src="data:image/png;base64,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" alt="logo da empresa Amazon">
+    
+
+    <form>
+        <label>Nome do Produto:</label>
+        <input type="text" id="productName">
+        <button type="button" onclick="search()">Pesquisar</button>
+    </form>
+    <div id="result"></div>
+    <script>
+        function search() {
+            // Obter o nome do produto informado pelo usuário
+            var productName = document.getElementById("productName").value;
+            // Fazer a pesquisa no site da Amazon
+            var url = "https://www.amazon.com.br/s?k=" + productName;
+            // Escrever o link resultante na página HTML
+            document.getElementById("result").innerHTML = '<a href="' + url + '">' + url + '</a>';
+        }
+    </script>
+</body>
+</html>
+
+</body>
+</html>
